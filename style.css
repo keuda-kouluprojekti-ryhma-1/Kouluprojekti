@@ -13,10 +13,6 @@ body {
     top: 0;
     right: 0;
   }
-  section {
-    display: inline-block;
-    vertical-align: top;
-  }
   
   .under-h2 {
     margin-top: 0;
@@ -28,4 +24,10 @@ body {
   
   .under-otsikko {
     margin-top: 0;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
