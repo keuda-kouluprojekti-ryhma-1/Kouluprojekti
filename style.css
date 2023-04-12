@@ -41,9 +41,9 @@
   }
   header img {
     width: 200px; 
-    position: relative;
-    top: 100px;
-    right: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 
 
