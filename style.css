@@ -31,13 +31,13 @@ body {
   .top-right {
     position: absolute;
     top: 0;
-    right: 20px;
+    right: 0;
   }
   
   .under-h2 {
     position: absolute;
     top: 50px;
-    right: 20px;
+    right: 0;
   }
 
 
