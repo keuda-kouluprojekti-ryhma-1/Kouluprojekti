@@ -10,13 +10,13 @@ body {
   .top-right {
     position: absolute;
     top: 0;
-    right: 0;
+    right: 20px;
   }
   
   .under-h2 {
     position: absolute;
     top: 50px;
-    right: 0;
+    right: 20px;
   }
 
 /* Otsikot */
