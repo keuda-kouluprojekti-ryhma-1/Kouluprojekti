@@ -40,8 +40,9 @@
     right: 20px;
   }
   header img {
-    width: 200px; /* adjust as needed */
+    width: 200px; 
     position: relative;
+    top: 100px;
     right: 20px;
   }
 
