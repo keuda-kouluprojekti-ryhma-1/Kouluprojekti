@@ -2,28 +2,32 @@ body {
     background-color: #DCDCDC;
     color: black;
   }
-  
-  .center {
-    text-align: center;
-    font-size: 2em;
-  }
-  
+
+/* Sivupalkki */
+
   .top-right {
     position: absolute;
     top: 0;
     right: 0;
   }
   
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
   .under-h2 {
     position: absolute;
     top: 50px;
     right: 0;
+  }
+
+/* Otsikot */
+
+  .center {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   .otsikot {
