@@ -41,7 +41,8 @@
   }
   header img {
     width: 200px; /* adjust as needed */
-    float: right;
+    position: relative;
+    right: 20px;
   }
 
 
