@@ -16,13 +16,13 @@ body {
 /* Sivupalkki */
 
   .top-right {
-    position: relative;
+    position: absolute;
     top: 0;
     right: 20px;
   }
   
   .under-h2 {
-    position: relative;
+    position: absolute;
     top: 50px;
     right: 20px;
   }
