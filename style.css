@@ -5,6 +5,14 @@ body {
     color: black;
   }
 
+  .otsikot {
+    margin-bottom: 20px;
+  }
+  
+  .under-otsikko {
+    margin-top: 0;
+  }
+
 /* Sivupalkki */
 
   .top-right {
@@ -32,11 +40,5 @@ body {
     align-items: center;
   }
   
-  .otsikot {
-    margin-bottom: 20px;
-  }
-  
-  .under-otsikko {
-    margin-top: 0;
-  }
+
   
