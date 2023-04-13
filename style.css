@@ -1,70 +1,66 @@
 /* tausta */
 
-  body {
-    background-color: #DCDCDC;
-    color: black;
-  }
+body {
+  background-color: #DCDCDC;
+  color: black;
+}
 
 /* pääteksti */
 
-  .center {
-    text-align: center;
-    font-size: 2em;
-  }
+.center {
+  text-align: center;
+  font-size: 2em;
+}
 
-  section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .otsikot {
-    margin-bottom: 20px;
-  }
-  
-  .under-otsikko {
-    margin-top: 0;
-  }
+.otsikot {
+  margin-bottom: 20px;
+}
 
-  #galleria img{
-    width: 200px;
-    position: relative;
-  }
+.under-otsikko {
+  margin-top: 0;
+}
+
+#galleria img{
+  width: 20%;
+  height: 200px;
+  position: relative;
+  margin: 5px;
+  flex-shrink: 0;
+}
 
 /* Sivupalkki */
 
-  #sivupalkki{
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
+#sivupalkki{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
-  #sivupalkki img {
-    width: 200px; 
-  }
+#sivupalkki img {
+  width: 200px; 
+}
 
-  /* Kuvagalleria */
+/* Kuvagalleria */
 
-  #galleria {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  
-  #galleria img {
-    width: 12%;
-    max-width: 100%;
-    margin: 5px;
-    flex-basis: 0;
-    flex-grow: 1;
-  }
-  
-  #galleria .row2 img {
-    width: 12%;
-    max-width: 100%;
-    margin: 5px;
-    flex-basis: 0;
-    flex-grow: 1;
-  }
+#galleria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#galleria .row2 img {
+  width: 20%;
+  height: 200px;
+  margin: 5px;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
