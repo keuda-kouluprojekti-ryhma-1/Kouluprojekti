@@ -50,9 +50,8 @@ section {
 }
 
 #galleria img{
-  width: 20%;
-  height: 200px;
+  width: 15%;
+  height: auto;
   position: relative;
   margin: 5px;
-  flex-shrink: 0;
 }
