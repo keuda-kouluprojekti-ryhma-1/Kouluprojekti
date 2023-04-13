@@ -55,14 +55,16 @@
   
   #galleria img {
     width: 12%;
-  max-width: 100%;
-  height: auto;
-  margin: 5px;
+    max-width: 100%;
+    margin: 5px;
+    flex-basis: 0;
+    flex-grow: 1;
   }
-
+  
   #galleria .row2 img {
     width: 12%;
     max-width: 100%;
-    height: auto;
     margin: 5px;
+    flex-basis: 0;
+    flex-grow: 1;
   }
