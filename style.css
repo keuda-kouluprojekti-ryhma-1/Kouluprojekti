@@ -48,7 +48,6 @@ section {
 }
 
 #galleria img {
-  flex-basis: 25%;
   height: auto;
   margin: 5px;
 }
