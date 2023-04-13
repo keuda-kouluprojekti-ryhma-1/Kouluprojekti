@@ -26,13 +26,6 @@ section {
   margin-top: 0;
 }
 
-#galleria img{
-  width: 20%;
-  height: 200px;
-  position: relative;
-  margin: 5px;
-  flex-shrink: 0;
-}
 
 /* Sivupalkki */
 
@@ -56,11 +49,10 @@ section {
   justify-content: center;
 }
 
-#galleria .row2 img {
+#galleria img{
   width: 20%;
   height: 200px;
+  position: relative;
   margin: 5px;
-  flex-basis: 0;
-  flex-grow: 1;
   flex-shrink: 0;
 }
