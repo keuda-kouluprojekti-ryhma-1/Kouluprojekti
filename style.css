@@ -26,7 +26,10 @@
     margin-top: 0;
   }
 
-
+  #galleria img{
+    width: 200px;
+    position: relative;
+  }
 
 /* Sivupalkki */
 
@@ -48,10 +51,4 @@
     top: 250px;
     right: 20px;
   }
-  
-  #galleria img{
-    width: 200px;
-    position: relative;
-  }
-
   
