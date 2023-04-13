@@ -42,3 +42,14 @@
   #sivupalkki img {
     width: 200px; 
   }
+
+  /* Kuvagalleria */
+  
+  #galleria {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #galleria img {
+    width: 50%;
+  }
