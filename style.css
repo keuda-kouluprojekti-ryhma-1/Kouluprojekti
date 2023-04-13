@@ -43,16 +43,12 @@ section {
 
 #galleria {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
   justify-content: center;
 }
 
-
-#galleria img{
-  width: 15%;
-  height: auto;
-  position: relative;
-  margin: 5px;
+#galleria img {
+  flex-basis: 25%;
+  box-sizing: border-box;
+  padding: 10px;
 }
