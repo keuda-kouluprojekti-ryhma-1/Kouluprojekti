@@ -45,15 +45,14 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
   justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
   flex-basis: 25%;
 }
 
-
-#galleria img{
-  width: 15%;
+#galleria img {
+  width: 100%;
   height: auto;
-  position: relative;
   margin: 5px;
 }
