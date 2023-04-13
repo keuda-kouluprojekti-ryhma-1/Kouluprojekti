@@ -33,22 +33,12 @@
 
 /* Sivupalkki */
 
-  header img {
-    width: 200px; 
+  #sivupalkki{
     position: absolute;
     top: 0;
     right: 0;
   }
 
-  .top-right {
-    position: absolute;
-    top: 200px;
-    right: 20px;
+  #sivupalkki img {
+    width: 200px; 
   }
-  
-  .under-h2 {
-    position: absolute;
-    top: 250px;
-    right: 20px;
-  }
-  
