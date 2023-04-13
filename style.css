@@ -50,7 +50,7 @@ section {
 }
 
 #galleria img {
-  width: 23%;
+  width: calc(25% - 10px);
   height: auto;
   margin: 5px;
   object-fit: cover;
