@@ -52,6 +52,7 @@ section {
 
 #galleria img{
   width: 15%;
+  max-width: 900px;
   height: auto;
   position: relative;
   margin: 5px;
