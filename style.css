@@ -56,4 +56,5 @@ section {
   flex-basis: calc(25% - 10px);
   object-fit: cover;
   max-width: 100%;
+  flex-shrink: 0;
 }
