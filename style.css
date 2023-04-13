@@ -50,8 +50,9 @@ section {
 }
 
 #galleria img {
-  max-width: 100%;
+  width: 25%;
   height: auto;
   margin: 5px;
   flex-basis: calc(25% - 10px);
+  object-fit: cover;
 }
