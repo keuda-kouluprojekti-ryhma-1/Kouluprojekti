@@ -43,16 +43,18 @@ section {
 
 #galleria {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 900px;
   margin: 0 auto;
-  max-width: 1200px;
 }
 
-#galleria img {
-  width: calc(25% - 10px);
+
+#galleria img{
+  width: 15%;
   height: auto;
+  position: relative;
   margin: 5px;
-  object-fit: cover;
-  max-width: 100%;
 }
