@@ -43,16 +43,15 @@ section {
 
 #galleria {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
-  flex-basis: 25%;
 }
 
 #galleria img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   margin: 5px;
+  flex-basis: calc(25% - 10px);
 }
