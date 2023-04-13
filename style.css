@@ -42,8 +42,6 @@ section {
 /* Kuvagalleria */
 
 #galleria {
-  left: 200px;
-  right: 200px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
