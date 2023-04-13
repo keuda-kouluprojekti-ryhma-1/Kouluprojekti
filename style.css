@@ -47,7 +47,8 @@ section {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
-  max-width: 600px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 
