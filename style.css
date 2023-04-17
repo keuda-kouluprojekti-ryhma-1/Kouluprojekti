@@ -61,7 +61,7 @@ section {
 
 /* Kuvagallerialle sivupalkki */
 
-#kuvagalleria-sivupalkki {
+.kuvagalleria-sivupalkki {
   position: absolute;
   top: 0;
   left: 0;
@@ -71,19 +71,19 @@ section {
   padding: 10px;
 }
 
-#kuvagalleria-sivupalkki p {
+.kuvagalleria-sivupalkki p {
   margin-top: 100px;
 }
 /* tekstiosioiden sijoittelu sivulla numero suluissa kuvaa mikä teksteistä on kyseessä */
 
-#kuvagalleria-sivupalkki p:nth-of-type(1) {
-  margin-top: 3000px;
+.kuvagalleria-sivupalkki p:nth-of-type(1) {
+  margin-top: 300px;
 }
 
-#kuvagalleria-sivupalkki p:nth-of-type(2) {
-  margin-top: 4000px;
+.kuvagalleria-sivupalkki p:nth-of-type(2) {
+  margin-top: 400px;
 }
 
-#kuvagalleria-sivupalkki p:nth-of-type(3) {
-  margin-top: 5000px;
+.kuvagalleria-sivupalkki p:nth-of-type(3) {
+  margin-top: 500px;
 }
