@@ -57,9 +57,11 @@ section {
   height: auto;
   position: relative;
   margin: 15px;
+  border: 5px solid black;
+  border-image: linear-gradient(to right, black, turquoise) 1;
 }
 
-/* Kuvagallerialle sivupalkki */
+/* Kuvagallerialle sivupalkki teksteille*/
 
 .kuvagalleria-sivupalkki {
   position: absolute;
