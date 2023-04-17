@@ -7,37 +7,47 @@ body {
 
 /* pääteksti */
 
-.center {
-  text-align: center;
-  font-size: 2em;
-}
-
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+#peruskuvaus {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#yhteystiedot {
+  margin: 10% 20% 10% 20%;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
 .otsikot {
   margin-bottom: 20px;
 }
-
-.under-otsikko {
-  margin-top: 0;
-}
-
 
 
 /* Sivupalkki */
 
 #sivupalkki{
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: teal;
+  border-radius: 10px;
 }
 
 #sivupalkki img {
   width: 200px; 
+}
+
+.yht-tiedot {
+  font-size: medium;
 }
 
 /* Kuvagalleria */
