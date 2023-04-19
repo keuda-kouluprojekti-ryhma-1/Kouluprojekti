@@ -99,16 +99,3 @@ section {
 
 /* väliaikaista */
 
-#vako{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  background-color: #DCDCDC;
-  padding: 10px;
-}
-
-#vako p{
-  margin-top: 100px;
-}
