@@ -99,7 +99,7 @@ section {
 
 /* väliaikaista */
 
-#vako {
+#vako{
   position: absolute;
   top: 0;
   left: 0;
@@ -109,6 +109,6 @@ section {
   padding: 10px;
 }
 
-#vako p {
+#vako p{
   margin-top: 100px;
 }
