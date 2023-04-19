@@ -99,3 +99,9 @@ section {
 
 /* väliaikaista */
 
+#suunnittelulomake {
+  height: 150px;
+  background-color: #DCDCDC;
+  text-align: center;
+  padding: 80px;
+}
