@@ -37,6 +37,7 @@ section {
 /* Sivupalkki */
 
 #sivupalkki{
+  margin-top: 200px;
   position: fixed;
   top: 20px;
   right: 20px;
