@@ -37,7 +37,6 @@ section {
 /* Sivupalkki */
 
 #sivupalkki{
-  margin-top: 200px;
   position: fixed;
   top: 20px;
   right: 20px;
@@ -63,6 +62,7 @@ section {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
+  align-self: center;
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -73,49 +73,4 @@ section {
   position: relative;
   margin: 15px;
   border-radius: 8px;
-}
-
-/* Kuvagallerialle sivupalkki teksteille*/
-
-.kuvagalleria-sivupalkki {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  background-color: #DCDCDC;
-  padding: 10px;
-}
-
-.kuvagalleria-sivupalkki p {
-  margin-top: 100px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* tekstiosioiden sijoittelu sivulla numero suluissa kuvaa mikä teksteistä on kyseessä */
-
-.kuvagalleria-sivupalkki p:nth-of-type(1) {
-  margin-top: 150px;
-}
-
-.kuvagalleria-sivupalkki p:nth-of-type(2) {
-  margin-top: 200px;
-}
-
-.kuvagalleria-sivupalkki p:nth-of-type(3) {
-  margin-top: 100px;
 }
