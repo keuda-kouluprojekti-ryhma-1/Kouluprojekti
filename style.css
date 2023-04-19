@@ -74,3 +74,34 @@ section {
   margin: 15px;
   border-radius: 8px;
 }
+
+/* Kuvagalleria2 */
+
+#kuva-galleria {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#kuva-galleria img{
+  width: 25%;
+  height: auto;
+  position: relative;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+/* väliaikaista */
+
+#vako {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  left: 400px;
+  right: 400px;
+}
