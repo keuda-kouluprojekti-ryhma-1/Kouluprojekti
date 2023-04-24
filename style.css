@@ -63,8 +63,8 @@ section {
   align-items: flex-start;
   justify-content: center;
   align-self: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 #galleria img{
@@ -85,8 +85,8 @@ section {
   align-items: flex-start;
   justify-content: center;
   align-self: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 #kuva-galleria img{
