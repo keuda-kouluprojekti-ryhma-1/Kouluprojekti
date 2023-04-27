@@ -69,7 +69,6 @@ section {
   align-items: center;
   margin: 0 18vw;
   max-width: 1200px;
-
 }
 
 #galleria img{
@@ -77,6 +76,28 @@ section {
   height: auto;
   border-radius: 8px;
 }
+
+/* kuvateksti */
+
+.container {
+  position: relative;
+}
+
+.kuvateksti {
+  position: absolute;
+  bottom: 8px;
+  right: 50%;
+  left: 50%;
+  font-size: 18px;
+  opacity: 0;
+  color: red;
+  background-color: black;
+}
+
+.container:hover .kuvateksti {
+  opacity: 1;
+}
+
 
 /* Kuvagalleria2 */
 
@@ -95,6 +116,8 @@ section {
   height: auto;
   border-radius: 8px;
 }
+
+/* kuvateksti */
 
 /* väliaikaista */
 
