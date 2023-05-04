@@ -86,7 +86,137 @@
       </div>
       <!-- suunnittelulomake -->
       <section id="suunnittelulomake">
-        <h2 class="otsikot">Tähän tulee hakulomake</h2>
+        <button onclick="avaaLomake1()">Lähetä valmis suunnitelma</button>
+        <button onclick="avaaLomake2()">Lähetä design-pyyntö</button>
+        
+        <form id="lomake1" style="display:none;">
+          <table>
+            <tr>      
+            <td><label for="picture">Liitä kuva:</label></td>
+            <td><input type="file" id="picture" name="picture"required></td>
+            </tr>
+            
+            <label for="plan">Kirjallinen suunnitelma:</label><br>
+            <textarea id="plan" name="plan"rows="4" cols="50"required></textarea><br><br>
+      
+            <label for="special-requests">Erityispyynnöt:</label><br>
+            <textarea id="special-requests" name="special-requests"rows="4" cols="50"></textarea><br><br>
+
+            <tr>
+            <td><label for="pieces">Kpl:</label></td>
+            <td><input type="number" id="pieces" name="pieces" min="1" max="100"required></td>
+            </tr>
+
+            <tr>
+            <td><label for="company-name">Yrityksen nimi:</label></td>
+            <td><input type="text" id="company-name" name="company-name"></td>
+            </tr>
+
+            <tr>
+            <td><label for="name">Nimi:</label></td>
+            <td><input type="text" id="name" name="name"required></td>
+            </tr>
+
+            <tr>
+            <td><label for="company-name">puh.</label></td>
+            <td><input type="number" id="Phone-number" name="Phone-number"></td>
+            </tr>
+
+            <tr>
+            <td><label for="email">Sähköposti:</label></td>
+            <td><input type="email" id="email" name="email"required></td>
+            </tr>
+          </table>
+            <div class="buttons">
+              <button type="submit" id="sendbtn()">Lähetä</button>
+              <button type="button" onclick="resetForm()">Peruuta</button>
+            </div>
+        </form>
+        
+          
+    
+        <form id="lomake2" style="display:none;">
+            
+          <table>
+          
+            
+            <label for="plan">Kirjallinen suunnitelma:</label><br>
+            <textarea id="plan" name="plan"rows="4" cols="50"required></textarea><br><br>
+      
+            <label for="special-requests">Erityispyynnöt:</label><br>
+            <textarea id="special-requests" name="special-requests"rows="4" cols="50"></textarea><br><br>
+            
+            <tr>
+            <td><label for="pieces">Kpl:</label></td>
+            <td><input type="number" id="pieces" name="pieces" min="1" max="100"required></td>
+            </tr>
+
+            <tr>
+            <td><label for="company-name">Yrityksen nimi:</label></td>
+            <td><input type="text" id="company-name" name="company-name"></td>
+            </tr>
+
+            <tr>
+            <td><label for="name">Nimi:</label></td>
+            <td><input type="text" id="name" name="name"required></td>
+            </tr>
+
+            <tr>
+            <td><label for="company-name">puh.</label></td>
+            <td><input type="number" id="Phone-number" name="Phone-number"></td>
+            </tr>
+
+            <tr>
+            <td><label for="email">Sähköposti:</label></td>
+            <td><input type="email" id="email" name="email"required></td>
+            </tr>
+          </table>
+            <div class="buttons">
+              <button type="submit" id="sendbtn()">Lähetä</button>
+              <button type="button" onclick="resetForm()">Peruuta</button>
+            </div>
+        </form>
+
+        <script>
+          function sendbtn() {
+              var sahkoposti = document.getElementById("sahkoposti").value;
+              var regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; 
+
+              if (!sahkoposti.match(regex)) {
+                  alert("Syötä oikea sähköpostiosoite!");
+                  return false;
+              }
+          }
+      </script>
+
+        <script>
+          function resetForm() {
+            document.getElementById("lomake2").reset();
+            document.getElementById("lomake1").reset();
+            
+          }
+          </script>
+      
+        
+        <script>
+          function avaaLomake1() {
+            document.getElementById("lomake2").style.display = "none";
+            document.getElementById("lomake1").style.display = "block";
+          }
+          
+          function avaaLomake2() {
+            document.getElementById("lomake1").style.display = "none";
+            document.getElementById("lomake2").style.display = "block";
+          }
+          
+          function piilotaLomake1() {
+            document.getElementById("lomake1").style.display = "none";
+          }
+          
+          function piilotaLomake2() {
+            document.getElementById("lomake2").style.display = "none";
+          }
+        </script>
       </section>
       <!-- Kuvagalleria -->
       <section id="kuva-galleria">
