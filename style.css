@@ -41,7 +41,7 @@ section {
   right: 2vw;
   padding: 10px 0px;
   background-color: teal;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 #sivupalkki img {
@@ -91,6 +91,8 @@ section {
   cursor: pointer;
 }
 
+/* Kuvateksti */
+
 .popup-teksti {
   visibility: hidden;
   width: 100%;
@@ -108,6 +110,8 @@ section {
 .kuva:hover .popup-teksti {
   visibility: visible;
 }
+
+/* Kuvan suurennus klikkaamalla */
 
 #isokKuva {
   display: none;
@@ -192,13 +196,12 @@ section {
   border-radius: 8px;
 }
 
-/* kuvateksti2 */
-
 /* väliaikaista */
 
 #suunnittelulomake {
-  height: 150px;
-  background-color: #DCDCDC;
-  text-align: center;
-  padding: 80px;
+  position: relative;
+  margin: 10vh 20vw 20vh 20vw;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: aliceblue;
 }
