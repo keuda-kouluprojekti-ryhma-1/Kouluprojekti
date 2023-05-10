@@ -207,3 +207,37 @@ section {
   border-radius: 10px;
   background-color: aliceblue;
 }
+
+footer img {
+  width: 150px;
+  height: auto;
+  margin: 0 20px;
+}
+
+/* Asetetaan footerin bannerin koko ja tyyli */
+footer .banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 100%;
+}
+
+footer .banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 24px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 10px;
+}
