@@ -5,6 +5,14 @@ body {
   color: black;
 }
 
+/* koko sivun otsikko */
+
+.kokoSivunOtsikko {
+  font-size: 60px;
+  color: turquoise;
+  text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+
 /* pääteksti */
 
 section {
@@ -177,9 +185,6 @@ section {
   opacity: 1;
 }
 
-/* lomake */
-
-
 /* Kuvagalleria2 */
 
 #kuva-galleria {
@@ -215,6 +220,7 @@ footer img {
 }
 
 /* Asetetaan footerin bannerin koko ja tyyli */
+
 footer .banner {
   display: flex;
   justify-content: center;
